@@ -1,4 +1,5 @@
-    var urlObj = new window.URL(window.location.href);
+
+   var urlObj = new window.URL(window.location.href);
     var url = "https://m2sky.github.io/Outlook/Home.html";
     if (url) {
       var win;
