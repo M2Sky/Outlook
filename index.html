@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Mail - Inbox - Outlook</title>
   </head>
   <body>
-    <h1>Okay why is your chromebook so slow? You're not suppose to see this page... Fix your wifi.</h1>
-<script>
-    window.location.href = 'https://www.google.com';
-var urlObj = window.open(window.location.href);
-var url = "https://m2sky.github.io/Outlook/Home.html";
-if (url) {
-  var win;
-  if (win) {
-    win.focus();
-  } else {
-    win = window.open();
-    win.document.body.style.margin = '0';
-    win.document.body.style.height = '100vh';
-    var iframe = win.document.createElement('iframe');
-    iframe.style.border = 'none';
-    iframe.style.width = '100%';
-    iframe.style.height = '100%';
-    iframe.style.margin = '0';
-    iframe.src = url;
-    win.document.body.appendChild(iframe);
-  }
-}
-
+    <script>
+      var url = "https://m2sky.github.io/Outlook/Home.html";
+      if (url) {
+        var win = window.open();
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        var iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+      }
     </script>
   </body>
 </html>
